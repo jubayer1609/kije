@@ -1,0 +1,14 @@
+  font-family: "Exo 2", sans-serif;
+
+
+  font-family: "Pacifico", cursive;
+  font-family: "Caveat", cursive; 400 to 700
+  font-family: "Delicious Handrawn", cursive;
+
+
+  font-family: "Mitr", sans-serif;
+  font-family: "Viga", sans-serif;
+  font-family: "Concert One", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
+

@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1444px;
+  margin: 0 auto;
+  position: relative;
+}
+::selection{
+  color: black;
+  background: rgb(240, 240, 240);
+}
+.backWall {
+  padding: 50px;
+  margin-top: 10px;
+  background: rgb(240, 240, 240);
+
+}
+.mainPage {
+  /* height: 816px;
+    width: 1344px; */
+  background: #ffffff;
+  padding: 100px;
+  border: 7px solid rgba(196, 196, 196, 0.4);
+}
+.border_page {
+  height: 716px;
+  width: 1144px;
+  border: 10px solid rgba(196, 196, 196, 0.4);
+  /* border: 5px solid #000000; */
+  border-top-left-radius: 124px;
+  border-bottom-right-radius: 124px;
+}
+
+.imgTop img {
+  width: 320px;
+}
+.imgTop {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.imgBottom img {
+  width: 320px;
+}
+.imgBottom {
+  position: absolute;
+  bottom: 46px;
+  right: 50px;
+}
+.buttom {
+  background: rgb(240, 240, 240);
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+.buttom button {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 30px 60px;
+  font-size: 30px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  border: 5px solid black;
+  transition: .4s;
+}
+.buttom button:hover{
+  background: rgb(0, 120, 215);
+  color: #d5ddd6;
+  
+}
+.buttom button:hover a{
+  color: white;
+  
+}
+.buttom button a {
+  transition: .4s;
+  text-decoration: none;
+  color: black;
+}
+
+.BorderTop {
+  padding: 40px 0 20px 0;
+  display: flex;
+}
+
+.logooo .image_loog img {
+  height: 100px;
+  width: 100px;
+  /* background: #d5ddd6; */
+  margin-left: 15%;
+  border-radius: 10px;
+}
+.logooo {
+  height: 80px;
+  width: 80px;
+  /* background: #d5ddd6; */
+  margin-left: 30%;
+  border-radius: 10px;
+}
+/* XXXXXXXXXXXXXXXX------LOGO-------XXXXXXXXXXXXXXXXXXXXXXXXX */
+.logoooName h1 {
+  padding-top: 33px;
+  padding-left: 25px;
+  font-size: 35px;
+  color: #888888;
+  /* text-transform: uppercase; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+/* XXXXXXXXXXXXXXXX------LOGO-------XXXXXXXXXXXXXXXXXXXXXXXXX */
+.BorderBottom {
+  height: 586.2px;
+  width: 100%;
+  /* background: #b18383; */
+  text-align: center;
+}
+.BorderBottom h2 {
+  color: #0073bc;
+  /* font-family: "Viga", sans-serif; */
+  /* font-family: "Concert One", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+
+
+  font-size: 50px;
+  padding-bottom: 15px;
+  font-weight: 800;
+}
+.aa {
+  color: rgb(136, 136, 136);
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+}
+.sticaer img {
+  width: 100px;
+}
+.signaturePart {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+.leftDate {
+  width: 250px;
+  text-align: center;
+}
+.rightSignature {
+  width: 250px;
+  text-align: center;
+}
+.holderName h3 {
+  font-size: 64px;
+  /* font-family: "Pacifico", cursive; */
+  /* font-family: "Caveat", cursive; */
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 25px;
+
+  position: relative;
+}
+.holderName::after {
+  height: 2px;
+  width: 45%;
+  content: "";
+  background: #000;
+  position: absolute;
+  top: 540px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.underHolderNameP {
+  /* font-size: 20px; */
+  width: 800px;
+  padding-left: 15%;
+  line-height: 150%;
+  font-size: 17px;
+  color: #888888;
+
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 25px;
+}
+.ppp{
+  font-size: 35px;
+  font-weight: 500;
+  color: rgb(99, 99, 99);
+}
+.underHolderNamePP {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding-bottom: 40px;
+}
+.leftDate{
+  font-size: 20px;
+  padding-top: 50px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+
+}
+.leftDate::before{
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 330px;
+  background: #000;
+  top: 42px;
+  left: -39px;
+}
+.rightSignature{
+  font-size: 20px;
+  padding-top: 50px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+
+}
+.rightSignature::before{
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 330px;
+  background: #000;
+  top: 42px;
+  left: -39px;
+}
+
+/* ⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸ */
+/* ⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸ */
+.inout_date{
+  padding-left: 100px;
+  position: absolute;
+  font-size: 23px;
+  top: 6px;
+  left: -53px;
+  z-index: 999;
+  font-family: "Montserrat", sans-serif;
+  
+  
+}
+/* ⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸ */
+/* ⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸ */
+/* ⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸ */
+.inout_Signature{
+  padding-left: 100px;
+  position: absolute;
+  font-size: 23px;
+  top: -4px;
+  /* left: 765px; */
+  left: 715px;
+  z-index: 999;
+  font-family: "Pacifico", cursive;
+}
+/* ⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸ */
+/* ⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸⩸ */
